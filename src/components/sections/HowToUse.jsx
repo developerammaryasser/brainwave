@@ -17,7 +17,7 @@ const HowToUse = () => {
       h2Text={`Generative AI made for creators.`}
       pText={`Brainwave unlocks the potential of AI-powered applications`}
     >
-      <div className="opacity-15 translate-y-4">
+      <div className="opacity-15 translate-y-4 w-full overflow-hidden">
         <Gradient />
       </div>
       <div className="w-full relative flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:px-8 border border-n-1/10 overflow-hidden rounded-3xl  h-[38rem] lg:h-[42rem]">
