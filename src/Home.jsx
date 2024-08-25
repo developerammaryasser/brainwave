@@ -9,12 +9,16 @@ import Roadmap from "./components/sections/Roadmap";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Features />
-      <HowToUse />
-      <Pricing />
-      <Roadmap />
+      <header>
+        <Navbar />
+        <Hero />
+      </header>
+      <main className="overflow-hidden">
+        <Features />
+        <HowToUse />
+        <Pricing />
+        <Roadmap />
+      </main>
       <Footer />
       <ButtonGradient />
     </>
